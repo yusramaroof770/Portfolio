@@ -1,4 +1,3 @@
-Personal Portfolio
 Welcome to my personal portfolio website!
 This portfolio showcases my projects, skills, and background as a Computer Science student.
 
