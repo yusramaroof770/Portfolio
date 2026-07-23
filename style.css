@@ -188,31 +188,34 @@ header{
 }
 
 header h1{
-    font-size:38px;
+    font-size:34px;
     line-height:1.2;
 }
 
 header h2{
-    font-size:24px;
+    font-size:22px;
     margin-top:15px;
 }
 
 header p{
-    font-size:18px;
+    font-size:17px;
     line-height:1.8;
 }
 
 nav{
     display:flex;
-    flex-wrap:wrap;
     justify-content:center;
-    gap:10px;
-    padding:15px;
+    align-items:center;
+    flex-wrap:nowrap;
+    gap:12px;
+    padding:12px 8px;
+    overflow-x:auto;
 }
 
 nav a{
-    margin:5px;
-    font-size:18px;
+    margin:0;
+    font-size:14px;
+    white-space:nowrap;
 }
 
 section{
@@ -221,16 +224,16 @@ section{
 }
 
 section h2{
-    font-size:30px;
+    font-size:26px;
 }
 
 section h3{
-    font-size:24px;
+    font-size:22px;
 }
 
 section p,
 section li{
-    font-size:18px;
+    font-size:17px;
     line-height:1.8;
 }
 
@@ -247,13 +250,22 @@ button{
 .resume-buttons{
     flex-direction:column;
     align-items:center;
+    gap:15px;
 }
 
 .resume-btn,
 .download-btn{
-    width:100%;
-    max-width:300px;
-    text-align:center;
+
+display:inline-block;
+
+width:260px;
+
+padding:14px 20px;
+
+font-size:18px;
+
+text-align:center;
+
 }
 
 footer{
