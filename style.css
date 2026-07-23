@@ -188,17 +188,17 @@ header{
 }
 
 header h1{
-    font-size:48px;
+    font-size:38px;
     line-height:1.2;
 }
 
 header h2{
-    font-size:30px;
+    font-size:24px;
     margin-top:15px;
 }
 
 header p{
-    font-size:22px;
+    font-size:18px;
     line-height:1.8;
 }
 
@@ -212,7 +212,7 @@ nav{
 
 nav a{
     margin:5px;
-    font-size:22px;
+    font-size:18px;
 }
 
 section{
@@ -221,16 +221,16 @@ section{
 }
 
 section h2{
-    font-size:36px;
+    font-size:30px;
 }
 
 section h3{
-    font-size:28px;
+    font-size:24px;
 }
 
 section p,
 section li{
-    font-size:22px;
+    font-size:18px;
     line-height:1.8;
 }
 
@@ -241,7 +241,7 @@ section li{
 input,
 textarea,
 button{
-    font-size:20px;
+    font-size:16px;
 }
 
 .resume-buttons{
@@ -257,7 +257,7 @@ button{
 }
 
 footer{
-    font-size:20px;
+    font-size:16px;
 }
 
 }
