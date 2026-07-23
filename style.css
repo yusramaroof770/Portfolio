@@ -140,3 +140,39 @@ background:#3730A3;
 transform:translateY(-2px);
 
 }
+
+form{
+    max-width:600px;
+    margin:auto;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-family:"Times New Roman", serif;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+button{
+    background:#4F46E5;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#3730A3;
+}
