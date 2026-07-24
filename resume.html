@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,40 +11,90 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+    <!-- ================= HEADER ================= -->
+
     <header>
-        <h1><i class="fa-solid fa-file-lines"></i> My Resume</h1>
+
+        <h1>
+            <i class="fa-solid fa-file-lines"></i>
+            My Resume
+        </h1>
 
         <p>
             You can view my resume online or download a PDF copy.
         </p>
+
     </header>
 
+    <!-- ================= NAVIGATION ================= -->
+
     <nav>
-        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-        <a href="about.html"><i class="fa-solid fa-user"></i> About</a>
-        <a href="projects.html"><i class="fa-solid fa-code"></i> Projects</a>
-        <a href="resume.html"><i class="fa-solid fa-file-lines"></i> Resume</a>
-        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+
+        <div class="logo">
+            Yusra Maroof
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="nav-links" id="nav-links">
+
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+
+            <a href="about.html">
+                <i class="fa-solid fa-user"></i>
+                About
+            </a>
+
+            <a href="projects.html">
+                <i class="fa-solid fa-code"></i>
+                Projects
+            </a>
+
+            <a href="resume.html">
+                <i class="fa-solid fa-file-lines"></i>
+                Resume
+            </a>
+
+            <a href="contact.html">
+                <i class="fa-solid fa-envelope"></i>
+                Contact
+            </a>
+
+        </div>
+
     </nav>
+
+    <!-- ================= RESUME ================= -->
 
     <section>
 
-        <h2>Resume</h2>
+        <h2>
+            <i class="fa-solid fa-address-card"></i>
+            Resume
+        </h2>
 
         <p>
             Thank you for your interest in my profile.
-            Please choose one of the options below.
+            You can either view my resume in your browser or download a PDF copy.
         </p>
 
         <div class="resume-buttons">
@@ -52,7 +103,8 @@
                target="_blank"
                class="resume-btn">
 
-                <i class="fa-solid fa-eye"></i> View Resume
+                <i class="fa-solid fa-eye"></i>
+                View Resume
 
             </a>
 
@@ -60,7 +112,8 @@
                download
                class="resume-btn">
 
-                <i class="fa-solid fa-download"></i> Download Resume
+                <i class="fa-solid fa-download"></i>
+                Download Resume
 
             </a>
 
@@ -68,9 +121,17 @@
 
     </section>
 
+    <!-- ================= FOOTER ================= -->
+
     <footer>
+
         <p>© 2026 Yusra Maroof</p>
+
     </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
 
 </body>
 
