@@ -67,7 +67,7 @@ header p{
 nav{
     background:#4B5563;
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
     padding:16px 8%;
     position:sticky;
@@ -76,15 +76,9 @@ nav{
     box-shadow:0 3px 12px rgba(0,0,0,.08);
 }
 
-.logo{
-    color:white;
-    font-size:1.35rem;
-    font-weight:700;
-}
-
 .nav-links{
     display:flex;
-    gap:28px;
+    gap:30px;
 }
 
 .nav-links a{
@@ -312,42 +306,38 @@ footer{
         font-size:1rem;
     }
 
-    /* ---------- Navigation ---------- */
+/* ---------- Navigation ---------- */
 
-    nav{
-        padding:15px 20px;
-    }
+nav{
+    justify-content:flex-end;
+    position:relative;
+}
 
-    .logo{
-        font-size:1.2rem;
-    }
+.menu-toggle{
+    display:block;
+}
 
-    .menu-toggle{
-        display:block;
-    }
+.nav-links{
+    position:absolute;
+    top:65px;
+    right:0;
+    width:220px;
+    background:#4B5563;
+    display:none;
+    flex-direction:column;
+    text-align:left;
+    gap:0;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
 
-    .nav-links{
-        position:absolute;
-        top:70px;
-        left:0;
-        width:100%;
-        background:#4B5563;
-        display:none;
-        flex-direction:column;
-        text-align:center;
-        gap:0;
-        box-shadow:0 8px 20px rgba(0,0,0,.15);
-    }
+.nav-links.active{
+    display:flex;
+}
 
-    .nav-links.active{
-        display:flex;
-    }
-
-    .nav-links a{
-        display:block;
-        padding:18px;
-        border-top:1px solid rgba(255,255,255,.12);
-    }
+.nav-links a{
+    padding:16px 20px;
+    border-top:1px solid rgba(255,255,255,.1);
+}
 
     /* ---------- Sections ---------- */
 
