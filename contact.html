@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,74 +11,136 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+    <!-- ================= HEADER ================= -->
+
     <header>
-        <h1><i class="fa-solid fa-envelope"></i> Contact Me</h1>
+
+        <h1>
+            <i class="fa-solid fa-envelope"></i>
+            Contact Me
+        </h1>
 
         <p>
             Feel free to get in touch using the information below or send me a message through the contact form.
         </p>
+
     </header>
 
+    <!-- ================= NAVIGATION ================= -->
+
     <nav>
-        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-        <a href="about.html"><i class="fa-solid fa-user"></i> About</a>
-        <a href="projects.html"><i class="fa-solid fa-code"></i> Projects</a>
-        <a href="resume.html"><i class="fa-solid fa-file-lines"></i> Resume</a>
-        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+
+        <div class="logo">
+            Yusra Maroof
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="nav-links" id="nav-links">
+
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+
+            <a href="about.html">
+                <i class="fa-solid fa-user"></i>
+                About
+            </a>
+
+            <a href="projects.html">
+                <i class="fa-solid fa-code"></i>
+                Projects
+            </a>
+
+            <a href="resume.html">
+                <i class="fa-solid fa-file-lines"></i>
+                Resume
+            </a>
+
+            <a href="contact.html">
+                <i class="fa-solid fa-envelope"></i>
+                Contact
+            </a>
+
+        </div>
+
     </nav>
+
+    <!-- ================= CONTACT DETAILS ================= -->
 
     <section>
 
-        <h2>Contact Information</h2>
+        <h2>
+            <i class="fa-solid fa-address-book"></i>
+            Contact Information
+        </h2>
 
         <p>
+
             <i class="fa-solid fa-envelope"></i>
-            <strong>Email:</strong><br>
+            <strong>Email</strong><br>
 
             <a href="mailto:yusramaroof770@gmail.com">
                 yusramaroof770@gmail.com
             </a>
+
         </p>
 
         <p>
+
             <i class="fa-brands fa-github"></i>
-            <strong>GitHub:</strong><br>
+            <strong>GitHub</strong><br>
 
             <a href="https://github.com/yusramaroof770" target="_blank">
                 github.com/yusramaroof770
             </a>
+
         </p>
 
         <p>
+
             <i class="fa-brands fa-linkedin"></i>
-            <strong>LinkedIn:</strong><br>
+            <strong>LinkedIn</strong><br>
 
             <a href="https://www.linkedin.com/in/yusra-maroof/" target="_blank">
                 View My LinkedIn Profile
             </a>
+
         </p>
 
     </section>
 
+    <!-- ================= CONTACT FORM ================= -->
+
     <section>
 
-        <h2>Send Me a Message</h2>
+        <h2>
+            <i class="fa-solid fa-paper-plane"></i>
+            Send Me a Message
+        </h2>
 
         <form action="https://formspree.io/f/mqerdwwr" method="POST">
 
             <label for="name">
-                <i class="fa-solid fa-user"></i> Name
+                <i class="fa-solid fa-user"></i>
+                Name
             </label>
 
             <input
@@ -88,7 +151,8 @@
                 required>
 
             <label for="email">
-                <i class="fa-solid fa-envelope"></i> Email
+                <i class="fa-solid fa-envelope"></i>
+                Email
             </label>
 
             <input
@@ -99,7 +163,8 @@
                 required>
 
             <label for="message">
-                <i class="fa-solid fa-comment"></i> Message
+                <i class="fa-solid fa-comment"></i>
+                Message
             </label>
 
             <textarea
@@ -110,17 +175,27 @@
                 required></textarea>
 
             <button type="submit">
+
                 <i class="fa-solid fa-paper-plane"></i>
                 Send Message
+
             </button>
 
         </form>
 
     </section>
 
+    <!-- ================= FOOTER ================= -->
+
     <footer>
+
         <p>© 2026 Yusra Maroof</p>
+
     </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
 
 </body>
 
