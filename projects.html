@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,87 +11,185 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+    <!-- ================= HEADER ================= -->
+
     <header>
-        <h1><i class="fa-solid fa-code"></i> My Projects</h1>
+
+        <h1>
+            <i class="fa-solid fa-code"></i>
+            My Projects
+        </h1>
+
+        <p>
+            Here are some of the projects I have built while learning programming and software development.
+        </p>
+
     </header>
 
+    <!-- ================= NAVIGATION ================= -->
+
     <nav>
-        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-        <a href="about.html"><i class="fa-solid fa-user"></i> About</a>
-        <a href="projects.html"><i class="fa-solid fa-code"></i> Projects</a>
-        <a href="resume.html"><i class="fa-solid fa-file-lines"></i> Resume</a>
-        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+
+        <div class="logo">
+            Yusra Maroof
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="nav-links" id="nav-links">
+
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+
+            <a href="about.html">
+                <i class="fa-solid fa-user"></i> About
+            </a>
+
+            <a href="projects.html">
+                <i class="fa-solid fa-code"></i> Projects
+            </a>
+
+            <a href="resume.html">
+                <i class="fa-solid fa-file-lines"></i> Resume
+            </a>
+
+            <a href="contact.html">
+                <i class="fa-solid fa-envelope"></i> Contact
+            </a>
+
+        </div>
+
     </nav>
+
+    <!-- ================= PROJECTS ================= -->
 
     <section>
 
+        <h2>
+            <i class="fa-solid fa-folder-open"></i>
+            Featured Projects
+        </h2>
+
+        <!-- Hospital Management System -->
+
         <div class="project">
 
-            <h2><i class="fa-solid fa-hospital"></i> Hospital Management System</h2>
+            <div class="project-icon">
+                <i class="fa-solid fa-hospital"></i>
+            </div>
+
+            <h3>Hospital Management System</h3>
 
             <p>
                 A desktop application developed in C++ using Object-Oriented Programming concepts.
                 It manages hospital records, patient information, doctors, and appointments.
             </p>
 
-            <p><strong>Technologies:</strong> C++, Object-Oriented Programming (OOP)</p>
+            <span class="tech">C++</span>
+            <span class="tech">OOP</span>
 
-            <a href="https://github.com/yusramaroof770/Hospital-Management-System-Using-CPP-Language" target="_blank">
-                <i class="fa-brands fa-github"></i> View on GitHub
+            <br><br>
+
+            <a class="project-btn"
+               href="https://github.com/yusramaroof770/Hospital-Management-System-Using-CPP-Language"
+               target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+                View on GitHub
+
             </a>
 
         </div>
 
+        <!-- Tic Tac Toe -->
+
         <div class="project">
 
-            <h2><i class="fa-solid fa-gamepad"></i> Tic Tac Toe</h2>
+            <div class="project-icon">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+
+            <h3>Tic Tac Toe</h3>
 
             <p>
-                A console-based Tic Tac Toe game developed in C that allows two players
-                to play with automatic winner detection.
+                A console-based Tic Tac Toe game developed in C that supports two players and automatically detects the winner.
             </p>
 
-            <p><strong>Technologies:</strong> C Programming</p>
+            <span class="tech">C</span>
 
-            <a href="https://github.com/yusramaroof770/Tic-Tac-Toe-Using-C-Language" target="_blank">
-                <i class="fa-brands fa-github"></i> View on GitHub
+            <br><br>
+
+            <a class="project-btn"
+               href="https://github.com/yusramaroof770/Tic-Tac-Toe-Using-C-Language"
+               target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+                View on GitHub
+
             </a>
 
         </div>
 
+        <!-- Portfolio -->
+
         <div class="project">
 
-            <h2><i class="fa-solid fa-globe"></i> Personal Portfolio Website</h2>
+            <div class="project-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+
+            <h3>Personal Portfolio Website</h3>
 
             <p>
-                A responsive personal portfolio website built using HTML and CSS to showcase
-                my projects, skills, resume, and contact information.
+                A responsive portfolio website built using HTML and CSS to showcase my projects,
+                skills, resume, and contact information.
             </p>
 
-            <p><strong>Technologies:</strong> HTML, CSS, GitHub, Netlify</p>
+            <span class="tech">HTML</span>
+            <span class="tech">CSS</span>
+            <span class="tech">GitHub</span>
+            <span class="tech">Netlify</span>
 
-            <a href="index.html">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i> View Portfolio
+            <br><br>
+
+            <a class="project-btn"
+               href="index.html">
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                View Portfolio
+
             </a>
 
         </div>
 
     </section>
 
+    <!-- ================= FOOTER ================= -->
+
     <footer>
+
         <p>© 2026 Yusra Maroof</p>
+
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
