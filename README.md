@@ -7,13 +7,8 @@ https://yusramaroof770.github.io/Portfolio/
 This portfolio includes:
 - About Me
 - Projects
-- Skills
+- Certificates & Skills
+- Resume
 - Contact Information
-
-Some of the projects featured include:
-
-- Hospital Management System (C++)
-- Tic Tac Toe (C)
-- Personal Portfolio Website
 
 Thank you for visiting my portfolio!
